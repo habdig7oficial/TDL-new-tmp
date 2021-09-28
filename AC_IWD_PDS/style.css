@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap');
+
+
+
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FDE2DF;
+
+    /*Pra ficar bem parecida nós corremos atrás das cores utilizadas*/
+
+}
+
+main{
+    margin-top: 3rem;
+    width: 80%;
+    background-color: #fff;
+    
+}
+
+h1{
+    font-family: 'Roboto', cursive;
+
+    font-size: 3rem;
+
+    margin: 3rem;
+}
+
+label{
+    font-family: 'Be Vietnam Pro', cursive;
+
+    font-size: 1.5rem;
+
+
+   
+}
+
+input{
+  justify-content: center;
+}
+
+.vertical{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+form
+{
+
+    display: flex;
+    text-align: right;
+    justify-content: space-around;
+    flex-direction: row;
+    
+    margin: 0%;
+    padding: 0%;
+
+
+}
+
+.tc{
+    width: 3rem;
+
+}
+
+.quebra{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(236, 236, 236);
+
+    
+
+    border-bottom:solid 0.2rem #fff;
+
+
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+
+
+.normal{
+    background-color: rgb(236, 236, 236);
+    border:solid 0.2rem #fff;
+
+
+}
+
+.normal p{
+
+
+    border-right:solid 0.15rem #fff;
+}
+
+
+#lista{
+    background-color: #fff;
+}
+
+#btn
+{
+    background-color: #FFBB82;
+
+    width:90% ;
+
+    color: #fff;
+
+    margin-left: 3rem;
+
+    margin-top: 0.8rem;
+
+    margin-bottom: 0.8rem;
+
+    border: transparent;
+
+}
+
+.mm{
+padding-right: 10%;
+}
+
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="./script.js"></script>
+</head>
+<body>
+    <main>
+        <h1>
+            Criar Nova Tarefa
+        </h1>
+
+        <div class="formulario">
+
+
+            <form>
+
+                <span class="vertical">
+                <label for="tarefa">
+                    Qual a Tarefa
+                </label>
+
+                <input type="text" id="tarefa">
+                </span>
+
+
+                <span class="vertical">
+            <label for="data">
+                Qual a data
+            </label>
+
+            <input type="date" id="data">
+
+            </span>
+
+
+
+            <span class="vertical">
+
+            <label for="dificuldade">
+                dificuldade
+            </label>
+
+            <select id="dificuldade"> 
+                <option value="facil">Fácil</option>
+                <option value="medio">Médio</option>
+                <option value="dificil">Difícil</option>
+            </select>
+
+            </span>
+
+
+
+            <span class="vertical">
+            <label for="checkbox">Importante</label>
+
+            <input type="checkbox"  id="checkbox">
+
+            </span>
+        </form>
+
+        </div>
+            <input type="button" value="Criar Tarefa" id="btn">
+
+            <h1>
+                Tarefa
+            </h1>
+
+            <div class="normal" id="lista">
+
+            </div>
+
+
+    </main>
+</body>
+</html>
